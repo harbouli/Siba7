@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/css/svg.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>News25</title>
+</head>
+<body>
+    <!-- Start Nav-Bar-->  
+    <nav>
+        
+        <div class="container">
+            <!--Start Left Nav bar-->
+            <div class="logo">
+                <a href="#">
+                    SIBA7
+                </a>
+            </div>
+            <!--End Left Nav bar-->
+
+
+
+
+            <!--Start Center Nav Bar-->
+
+            <div class="top-bar-content">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg 
+                            class="w-6 h-6" 
+                            fill="none"
+                             stroke="currentColor" 
+                             viewBox="0 0 24 24" 
+                             xmlns="http://www.w3.org/2000/svg"
+                             >
+                                <path 
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2" 
+                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                                >
+                                </path>
+                            </svg>
+
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="w-6 h-6" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                  stroke-width="2"
+                                   d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                                   >
+                                </path>
+                            </svg>
+                            Video</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="w-6 h-6"
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="2" 
+                                d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                                >
+                                </path>
+                                <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                    d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                                    >
+                                </path>
+                            </svg>Trend</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="w-6 h-6"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="none" viewBox="0 0 24 24" 
+                            stroke="currentColor"
+                            >
+                                <path 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="2" 
+                                d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" 
+                                />
+                              </svg>
+
+                            </svg>Music</a>
+                    </li>
+                </ul>
+            
+                <!--switch button -->
+                <div class="bt">
+                    <div class="button r" id="button-3">
+                      <input type="checkbox" class="checkbox switch__input" data-theme-toggle>
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                </div>
+            </div>
+                    <!--Right Tob-Bar -->
+                    <div class="box-container">
+                        <svg class="h-6 w-6"
+                         xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        >
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                            />
+                          </svg>
+                        <form>
+                            <input type="text" class="input" placeholder="Searching...">
+                        </form>
+                    </div>
+            <!--End center Navbar-->
+
+
+
+
+        </div>
+        
+
+
+    </nav>
+    <!-- End Nav-Bar-->
+
+    <!--start body-->
+    <div class="container">
+        <div class="body">
+
+            <!--Left side-->
+            <div class="left-side">
+                <div class="category">
+                    <h1>Category</h1>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Game</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Africa News</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Tips</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Energy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Left side-->
+
+
+
+
+            <!-- start Conternt-body-->
+
+            <div class="content-body">
+
+                <!-- Main article-->
+                <div class="main-article">
+                    <h1>Today <span>Headline</span></h1>
+                    <div class="main-ar-holder">
+
+                        <div class="image">
+                           <a href="#"> <img src="/img/morocco.jpg" alt="Warzazat"/></a>
+                        </div>
+
+                        <div class="headline-titel">
+
+
+                            <div class="main-ar-info">
+                                <div class="category-headline">
+                                    <p>Politics</p>
+                                </div>
+
+                                <div class="more-info">
+                                    <svg class="w-6 h-6" 
+                                    fill="none" stroke="currentColor" 
+                                    viewBox="0 0 24 24" 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path 
+                                        stroke-linecap="round" 
+                                        stroke-linejoin="round" 
+                                        stroke-width="2" 
+                                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                                        >
+                                        </path>
+                                    </svg>
+                                    <div class="comments nums"><p >6845</p></div>
+
+
+                                    <svg class="w-6 h-6"
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    viewBox="0 0 24 24" 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path 
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round" 
+                                    stroke-width="2" 
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                    >
+                                        </path><path 
+                                        stroke-linecap="round" 
+                                        stroke-linejoin="round" 
+                                        stroke-width="2" 
+                                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                        >
+
+                                    </path>
+                                    </svg>
+                                <div class="views nums"><p >9652542</p></div>
+
+
+                                </div>
+                            </div>
+                            
+
+                            <div class="titel-box">
+                                <a href="#" class="title"> 
+                                    Some thing here some thing here lah .
+                                </a>
+                            </div>
+                            <div class="date-ag">
+                                <p> 1 hr ago </p>
+                            </div>
+                        </div>
+                        <div class="share-like-holder">
+                            <a href="#" class="share-bt">
+                                <svg 
+                                class="w-6 h-6" 
+                                fill="none" 
+                                stroke="currentColor"
+                                viewBox="0 0 24 24" 
+                                xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path 
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round" 
+                                    stroke-width="2" 
+                                    d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+                                    >
+                                    </path>
+                                </svg>
+                            </a>
+                            <div class="like-bt">
+                                <svg class="w-6 h-6 like" 
+                                fill="none" 
+                                stroke="currentColor"
+                                 viewBox="0 0 24 24"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round" 
+                                    stroke-width="2" 
+                                    d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                                    >
+                                        
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!--News Section -->
+                <div class="first-sc">
+                    <div class="title-h1">
+                        <a href="#"><h1>Sport</h1></a>
+                    </div>
+                    <div class="box-holder">
+                        <div class="box">
+                           
+                                <img class="a-img" src="/img/desert.jpg" alt="" srcset="">
+                            
+                                <div class="title">
+                                    <a href="#">
+                                    <h1>Hallo ich bin 21  jhar alt.ich liebe deutchen . </h1>
+                                    </a>
+                                    <div class="aute">
+                                        <div class="img">
+                                            <img src="/img/photo of me.png" alt="Simo">
+                                        </div>
+                                        <p>| Mohamed Harbouli</p>
+                                    </div>
+                                </div>
+
+
+                            
+                        </div>
+                        <div class="box">
+                           
+                                <img class="a-img" src="/img/desert.jpg" alt="" srcset="">
+                            
+                                <div class="title">
+                                    <a href="#">
+                                    <h1>Hallo ich bin 21  jhar alt.ich liebe deutchen . </h1>
+                                    </a>
+                                    <div class="aute">
+                                        <div class="img">
+                                            <img src="/img/photo of me.png" alt="Simo">
+                                        </div>
+                                        <p>| Mohamed Harbouli</p>
+                                    </div>
+                                </div>
+
+
+                            
+                        </div>
+                        <div class="box">
+                           
+                                <img class="a-img" src="/img/desert.jpg" alt="" srcset="">
+                            
+                                <div class="title">
+                                    <a href="#">
+                                    <h1>Hallo ich bin 21  jhar alt.ich liebe deutchen . </h1>
+                                    </a>
+                                    <div class="aute">
+                                        <div class="img">
+                                            <img src="/img/photo of me.png" alt="Simo">
+                                        </div>
+                                        <p>| Mohamed Harbouli</p>
+                                    </div>
+                                </div>
+
+
+                            
+                        </div>
+                        <div class="box">
+                           
+                                <img class="a-img" src="/img/desert.jpg" alt="" srcset="">
+                            
+                                <div class="title">
+                                    <a href="#">
+                                    <h1>Hallo ich bin 21  jhar alt.ich liebe deutchen . </h1>
+                                    </a>
+                                    <div class="aute">
+                                        <div class="img">
+                                            <img src="/img/photo of me.png" alt="Simo">
+                                        </div>
+                                        <p>| Mohamed Harbouli</p>
+                                    </div>
+                                </div>
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <!-- End Conternt-body-->
+
+            
+
+
+
+            <!-- Start Right Side-->
+            
+            <div class="right-side">
+                <div class="all-widget">
+                    <!-- News Widget-->
+                    <div class="news-widgets">
+                        <h1>News</h1>
+                        <div class="widget-holder">
+                            <div class="wid-img">
+
+                                <a href="#">
+                                    <img src="/img/mosque.jpg" alt="mosque">
+                                </a>
+                                
+                            </div>
+                            <div class="wid-ti-holder">
+                                <a href="#">
+                                    Hallo wie gegt es dir ? Bei mir ist soweit alles ...
+                                </a>
+                                <div class="date-ag">
+                                    <p>
+                                        1 hr ago
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="widget-holder">
+                            <div class="wid-img">
+
+                                <a href="#">
+                                    <img src="/img/desert.jpg" alt="mosque">
+                                </a>
+                                
+                            </div>
+                            <div class="wid-ti-holder">
+                                <a href="#">
+                                    Hallo wie gegt es dir ? Bei mir ist soweit alles ...
+                                </a>
+                                <div class="date-ag">
+                                    <p>
+                                        1 hr ago
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="widget-holder">
+                            <div class="wid-img">
+
+                                <a href="#">
+                                    <img src="/img/alley.jpg" alt="mosque">
+                                </a>
+                                
+                            </div>
+                            <div class="wid-ti-holder">
+                                <a href="#">
+                                    Hallo wie gegt es dir ? Bei mir ist soweit alles ...
+                                </a>
+                                <div class="date-ag">
+                                    <p>
+                                        1 hr ago
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Right Side-->
+
+
+
+
+
+        </div>
+    </div>
+
+    <!--End body-->
+ 
+    <script src='/js/script.js'></script>
+    <script>
+
+const toggleSwitch = document.querySelector('.button input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+
+
+
+    </script>
+    
+</body>
+</html>
